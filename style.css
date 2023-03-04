@@ -1,0 +1,60 @@
+body {
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #20262E;
+    color: #20262E;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-container {
+    background-color: #20262E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="password"] {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+  input[type="text"] {
+    margin-bottom: 10px;
+  }
+  .login-button {
+    background-color: #20262E;
+    border: none;
+    border-radius: 5px;
+    color: #20262E;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .login-button:hover {
+    background-color: #20262E;
+  }
+  
